@@ -3,7 +3,7 @@
 static const int sensorPin = 10;                    // sensor input pin 
 int SensorStatePrevious = LOW;                      // previousstate of the sensor
 
-unsigned long minSensorDuration = 3000; // Time we wait before  the sensor active as long 
+unsigned long minSensorDuration =3000; // Time we wait before  the sensor active as long 
 unsigned long minSensorDuration2 = 6000;
 unsigned long SensorLongMillis;                // Time in ms when the sensor was active
 bool SensorStateLongTime = false;                  // True if it is a long active
