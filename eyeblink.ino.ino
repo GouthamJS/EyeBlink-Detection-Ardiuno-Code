@@ -79,7 +79,6 @@ void readSensorState() {
    previousSensorMillis = currentMillis;
 
   }
-
 }
 
 void loop() {
